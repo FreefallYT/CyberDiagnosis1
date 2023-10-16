@@ -1,0 +1,261 @@
+<style>
+@import url('https://fonts.google.com/specimen/PT+Sans+Caption?preview.text=Question%201&query=PT+Sans+Caption');
+
+@import url('https://fonts.google.com/specimen/Secular+One?preview.text=Questions%0A');
+
+  html {
+    height: 100%;
+    width: 100%;
+  }
+
+  body {margin:0;}
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 9%;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    font-family: 'PT Sans Caption', sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #6d95ca;
+    height: 45%;
+  }
+</style>
+
+
+
+
+
+<!DOCTYPE html>
+
+
+<html>
+
+<style>
+ 
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-left: 150px;
+  cursor: pointer;
+}
+</style>
+<body>
+  <ul>
+    <li><a href="./index.html">Home</a></li>
+    <li><a href="./ADHDStartTest.html">ADHD Test</a></li>
+    <li><a class="active" href="./DepressionStartTest.html">Depression Test</a></li>
+    <li><a href="./EatingDisorderStartTest.html">Eating Disorder Test</a></li>
+    <li><a href="AboutUs.html">About Us</a></li>
+  </ul>
+</body>
+  <i1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOzyq9fYCpRQiTfXCHA30R84PIEHVIoIMZzZ3FXksuI9rq3bpG5bS8vsA-FIa8raPofvs&usqp=CAU" alt="image" height="300px" width="auto" />
+  </i1>
+<style>
+i1 {
+  float: right;
+  padding: 20px;
+  margin-top: 70px;
+  margin-right: 75px;
+}
+
+</style>
+  
+        <h2>Questions:</h2>
+        <form id="DepressionQuiz" onsubmit= "return calculateTotal()">
+        <ol>
+          <p>1. Do you feel sad, anxious or "empty"?: </p>
+                <label>
+                  <p5>
+                  <input type="radio" name="q1" value="Never" required> Never
+                  <input type="radio" name="q1" value="Sometimes"> Sometimes
+                  <input type="radio" name="q1" value="Often"> Often
+                  <input type="radio" name="q1" value="Always"> Always
+                  </p5>
+               </label>
+          <p>2. Do you have feelings of hopelessness or pessimism?: </p>
+                <label>
+                  <input type="radio" name="q2" value="Never" required> Never
+                  <input type="radio" name="q2" value="Sometimes"> Sometimes
+                  <input type="radio" name="q2" value="Often"> Often
+                  <input type="radio" name="q2" value="Always"> Always
+                  </label>
+          <p>3. Are you frustrated, irritated or restless?: </p>
+                <label>
+                  <input type="radio" name="q3" value="Never" required> Never
+                  <input type="radio" name="q3" value="Sometimes"> Sometimes
+                  <input type="radio" name="q3" value="Often"> Often
+                  <input type="radio" name="q3" value="Always"> Always
+                  </label>
+          <p>4. Do you have feelings of guilt, worthlessness or helplessness?: </p>
+                <label>
+                  <input type="radio" name="q4" value="Never"required> Never
+                  <input type="radio" name="q4" value="Sometimes"> Sometimes
+                  <input type="radio" name="q4" value="Often"> Often
+                  <input type="radio" name="q4" value="Always"> Always
+                  </label>
+          <p>5. Are you losing interest or pleasure in previous hobbies and activities?: </p>
+                <label>
+                  <input type="radio" name="q5" value="Never"required> Never
+                  <input type="radio" name="q5" value="Sometimes"> Sometimes
+                  <input type="radio" name="q5" value="Often"> Often
+                  <input type="radio" name="q5" value="Always"> Always
+                  </label>
+          <p>6. Do you have difficulty concentrating, remembering or making decisions?: </p>
+                <label>
+                  <input type="radio" name="q6" value="Never"required> Never
+                  <input type="radio" name="q6" value="Sometimes"> Sometimes
+                  <input type="radio" name="q6" value="Often"> Often
+                  <input type="radio" name="q6" value="Always"> Always
+                  </label>
+          <p>7. Do you have decreased energy, fatigue, or feel slowed down?: </p>
+                <label>
+                  <input type="radio" name="q7" value="Never" required> Never
+                  <input type="radio" name="q7" value="Sometimes"> Sometimes
+                  <input type="radio" name="q7" value="Often"> Often
+                  <input type="radio" name="q7" value="Always"> Always
+                  </label>
+          <p>8. Do you have a change in appetite or weight?: </p>
+                <label>
+                  <input type="radio" name="q8" value="Never"required> Never
+                  <input type="radio" name="q8" value="Sometimes"> Sometimes
+                  <input type="radio" name="q8" value="Often"> Often
+                  <input type="radio" name="q8" value="Always"> Always
+                  </label>
+          <p>9. Do you have physical pain, headaches, cramps or digestive <br> problems without a clear physical cause that does not go away with treatment? </p> </p>
+                <label>
+                  <input type="radio" name="q9" value="Never"required> Never
+                  <input type="radio" name="q9" value="Sometimes"> Sometimes
+                  <input type="radio" name="q9" value="Often"> Often
+                  <input type="radio" name="q9" value="Always"> Always
+                  </label>
+          <p>10. Do you have suicidal thoughts?: </p>
+          <label>
+            <input type="radio" name="q10" value="Never"required> Never
+            <input type="radio" name="q10" value="Sometimes"> Sometimes
+            <input type="radio" name="q10" value="Often"> Often
+            <input type="radio" name="q10" value="Always"> Always
+            </label>
+          <p>11. Do you ever feel lonely?: </p>
+          <label>
+            <input type="radio" name="q11" value="Never"required> Never
+            <input type="radio" name="q11" value="Sometimes"> Sometimes
+            <input type="radio" name="q11" value="Often"> Often
+            <input type="radio" name="q11" value="Always"> Always
+            </label>
+         
+        </ol>
+       <button type="onsubmit" class = "button" >See your results!</button>
+          </form>
+<script>
+   function calculateTotal() {
+   var form = document.getElementById('DepressionQuiz');
+   var alwaysCount = 0;
+   var oftenCount = 0;
+   var sometimesCount = 0;
+   var neverCount = 0;
+
+   for (var i = 1; i <= 11; i++) {
+     var responses = form.elements['q' + i];
+     for (var j = 0; j < responses.length; j++) {
+         if (responses[j].checked) {
+             if (responses[j].value === 'Always') {
+                 alwaysCount++;
+             } else if (responses[j].value === 'Often') {
+                 oftenCount++;
+             } else if (responses[j].value === 'Sometimes') {
+                 sometimesCount++;
+             } else if (responses[j].value === 'Never') {
+                 neverCount++;
+             }
+         }
+     }
+   }
+   var totalcount = (alwaysCount*3) + (oftenCount*2) + sometimesCount;
+   if (totalcount >= 25) {
+    document.location.href = '/DepressionResults/StrongDepression.html';
+   }
+   if (totalcount < 25 && totalcount > 8) {
+    document.location.href = '/DepressionResults/SomeDepression.html';
+    }
+   if (totalcount <= 8) {
+    document.location.href = '/DepressionResults/MinimalDepression.html';
+       }
+     return false;
+   }
+
+ 
+   </script>
+</body>
+
+</html>
+
+
+
+
+    
+<style>
+  input[type="radio"] {
+    width: 25px;
+    height: 25px;
+    border-radius: 20%;
+    display: inline-block;
+    position: relative;
+    bottom: 0;
+    margin-right: 5px;
+    cursor: pointer;
+    vertical-align: text-bottom;
+    accent-color: #6d95ca
+  }
+ 
+  p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    margin-left:4px;
+    margin-top:30px;
+    font-size: 25px;
+  }
+
+  h2 {
+    margin-top: 70px;
+    margin-left: 40px;
+    font-size:40px;
+  }
+
+  ol {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: #000000
+
+  }
+</style>

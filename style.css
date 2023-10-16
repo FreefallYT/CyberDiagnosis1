@@ -1,0 +1,53 @@
+@import url('https://fonts.google.com/specimen/PT+Sans+Caption?preview.text=Question%201&query=PT+Sans+Caption');
+
+
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {margin:0;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 9%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #6d95ca;
+  height: 20%;
+}
+
+
+
+
+
+
+
+
+
+
